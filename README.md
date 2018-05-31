@@ -15,20 +15,18 @@ Helper for Google appscript sheet crud operation
 
 Copy file contents in `dist/index.js` into your App script. Then you can use like this
 
-```
-  var sheet = sheet = SpreadsheetApp.openByUrl(sheetUrl);
-  var sheetHelper = new SheetHelper(sheet.getSheets()[0],{idColumn:0});
-  
-  //Insert Item 
-  
-  sheet.Helper.create([1,"Data 1","Data 2"]);
-  
-  //Find an item where coloumn 2 id Data
-  
-  var item = sheetHelper.find(2,"Data");
-  
-  
-```
+      var sheet = sheet = SpreadsheetApp.openByUrl(sheetUrl);
+      var sheetHelper = new SheetHelper(sheet.getSheets()[0],{idColumn:0});
+      
+      //Insert Item 
+      
+      sheet.Helper.create([1,"Data 1","Data 2"]);
+      
+      //Find an item where coloumn 2 id Data
+      
+      var item = sheetHelper.find(2,"Data");
+      
+      
 
 ## API
 
