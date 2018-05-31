@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 coverage
-dist
 *.log
 
 # Created by https://www.gitignore.io/api/intellij+all
@@ -27,7 +26,7 @@ dist
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
-
+.idea/vcs.xml
 # CMake
 cmake-build-debug/
 

@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "Helper for Google appscript sheet crud operation ",
   "license": "MIT",
-  "repository": "saleeh93/sheet-crud-appscript",
+  "repository": "saleehk/sheet-crud-appscript",
   "main": "dist/index.js",
   "author": {
     "name": "saleeh",
     "email": "saleeh93@gmail.com",
-    "url": "https://github.com/saleeh93"
+    "url": "https://github.com/saleehk"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=4"
   },
   "files": [
     "dist"
